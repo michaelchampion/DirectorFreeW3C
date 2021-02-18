@@ -1,4 +1,4 @@
-# Thoughts for a proposed meeting [Open Source and W3C Standardization](https://doodle.com/poll/tu4kyvkfmscfnres)
+# Position Paper for a Proposed Meeting
 
 it would be great if all of us could share why the topic is of
 interest, and what you hope might emerge from a more structured
@@ -6,7 +6,7 @@ conversation
 
 ## Role of OSS browser projects
 * Big companies that control the projects do most of the implementaiton;
-* code first not spec first
+* code first not spec first; this makes it easier to get interoperability between different browser products since they either share the same "engine" codebase or at least can inspect others' code ... 
 * Standards orgs coordinate /facilitate more than drive
 * But formal process documents still describe a spec-first process with multiple independent implementations necessary to advance
 * How can process describe and shape reality without rubberstamping?
@@ -15,8 +15,9 @@ conversation
 * Martin Thomson's post on the relations between standards, tests & implementations  https://lowentropy.net/posts/standard-principles/
 
 ## Possible solutions
+* Identify the "threat model" , identify principles that would mitigate them
 * Open governance of major OSS projects
-* 
+
 
 
 * some significant pieces of technology (WebRTC being particularly close

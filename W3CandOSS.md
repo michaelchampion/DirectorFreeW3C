@@ -1,13 +1,12 @@
 # Position Paper on W3C standards and Open Source implementations
 
-## The Interoperability challenge
+## The Interoperability challenge ....
 For much of its history, W3C has  focused on making browsers more interoperable.  Users and  developers struggled with the expensive problem of building appealing and functional sites that worked on the range of browsers their customers used.  Browsers were built with a mix of proprietary and open-source code, and  the companies built them had business incentives to keep at least some implementation code private.
 
 W3C addressed the challenge in a *spec-first*manner:  Specifications came before implementations. Representatives from the browser implementers would convene at standards groups to draft specifications.  When the specs were reasonably stable and prototype implementations showed promise, they implementation began in browser engines. Beta testing and formal interoperability testing of experimental builds of the browsers indicated when the spec was ready to become a formal standard. 
 
  In essence, the *specifications* were tested more than the implementations; test showed whether new web platform feature had a clear enough spec for independent  teams to build browsers that implemented the feature in a way that worked the same in multiple browsers. But actual deployment of new features to the web happened at an uneven pace, since it often took years for one browser platform team to prioritize implementing features pioneered in another platform.  
-
-## Transition to Open Source implementations
+... largely solved by Open Source implementations
 Beginning with Gecko/Firefox, gathering momentum with WebKit/Safari and Chromium/Chrome,  and culminating with Opera and Microsoft abandoning their own browser engines, *all* modern browsers are built on one of the open source engines.  This has more or less solved the browser interoperability problem:
 * The most widely used browser clients -- from Google, Microsoft, Opera, Samsung, Brave, and others -- use the Chromium engine, and the common codebase means they interoperate by default.
 * The fact that developers of one engine can see the code implementing complex features in other browsers allows them to keep the platform functionality aligned across engines.
@@ -24,7 +23,7 @@ So what should W3C do now that browser interoperability is mostly a solved probl
 In short, without the standards organizations  active input, the web platform would be developed *code-first* manner. Specifications would be an implementation by-product, used to document the features that are supposed to be interoperable and for test suites to reference.  “Standards” would   be mostly *de facto*, whatever works.
 
 ## One way forward: open governance of open source
-* Open governance of major OSS projects: 
+* Open governance of major OSS projects: Putting in a governance structure for the major OSS browser projects that  ... while most oSS projects are effectively [DO Ocracies](https://communitywiki.org/wiki/DoOcracy) ...
 * Identify the "threat model" , identify principles that would mitigate them
 * Bring in users … 
 * 

@@ -1,4 +1,8 @@
-# Position Paper on W3C standards and Open Source implementations
+# W3C standards and Open Source implementations
+
+@michaelchampion's personal thoughts ...
+
+Disclaimer: I'm not sure about OSS projects generally not having strong patent policies, will investigate (or accept PRs correcting any mis-statements)
 
 ## The Interoperability challenge ....
 For much of its history, W3C has  focused on making browsers more interoperable.  Users and  developers struggled with the expensive problem of building appealing and functional sites that worked on the range of browsers their customers used.  Browsers were built with a mix of proprietary and open-source code, and  the companies built them had business incentives to keep at least some implementation code private.
@@ -23,17 +27,25 @@ So what should W3C do now that browser interoperability is mostly a solved probl
 In short, without the standards organizations  active input, the web platform would be developed *code-first* manner. Specifications would be an implementation by-product, used to document the features that are supposed to be interoperable and for test suites to reference.  “Standards” would   be mostly *de facto*, whatever works.
 
 ## One way forward: open governance of open source
-* Open governance of major OSS projects: Putting in a governance structure for the major OSS browser projects that  ... while most oSS projects are effectively [DO Ocracies](https://communitywiki.org/wiki/DoOcracy) ...
-* Identify the "threat model" , identify principles that would mitigate them
-* Bring in users … 
+
+Putting in a governance structure for the major OSS browser projects could mitigate the concerns above. There will be challenges:
+* The big companies who invest in OSS projects do so for business / personal economic reasons; giving up control might undermine that rationale.
+* Most OSS projects are effectively [DO Ocracies](https://communitywiki.org/wiki/DoOcracy) so formal control may not be effective.
+* Under OSS copyright licenses, participants have the option of forking existing code into a new project if the governance structure seems oppressive.
+
+Nevertheless, openly governed versions of Chromium, Webkit, and/or Gecko might:
+* Put measures in place to minimize the risk of a single company dominating the project's agenda. 
+* Try to reform the "geek" cultures of the projects to be more welcoming to *users*; consider [RFC 8890](https://www.rfc-editor.org/rfc/rfc8890) and the various [discussions] (https://github.com/WebStandardsFuture/Users1st) of its [implications](https://www.mnot.net/blog/2020/08/28/for_the_users) and make a good-faith effort to bake those principles into the governing documents.
+* Explicitly identify and attempt to mitigate the other issues, e.g. define more explicit royalty-free patent policies, add processes or review guidelines to encourage acessibility, internationalization, privacy, etc.
 * 
 ## Another way forward:  clear OSS / SDO division of labor
 
-* Standards orgs coordinate / facilitate more than “Lead the Web to its Full Potential”
-* Change processes to accommodate code-first realities
-* Find ways for SDOs to describe and shape reality without rubber-stamping whatever the implementers do.
-* Testing ....
-* Martin Thomson's post on the relations between standards, tests & implementations  https://lowentropy.net/posts/standard-principles/
+Alternatively (or perhaps in conjunction with OSS governance reform), change the W3C mission, processes, and policies to reflect the new reality and project a vision of how W3C could better-collaborate with the OSS implementers.
+
+* Redefine the mission to be a steward, or facilitator, of the web platform rather than presuming to “Lead the Web to its Full Potential”. 
+* Change processes to accommodate code-first realities. For example, accept that many core specifications will have only one implementation, or that one organization may contribute most of the code for a feature to multiple projects.  There can be various checks and balances to ensure that the single implementer doesn't abuse its power.  For example, the W3C process could recognize that browser *clients* essentially vote for or against the desirability of a platform feature by deciding whether to ship that part of the platform code that implements it.   
+* Refine governance and processes to reflect the "users first" orientation outlined in RFC 8890. User representatives could be better-empowered to shape web platform reality without rubber-stamping whatever the implementers do.
+* Testing .... Martin Thomson's post on the relations between standards, tests & implementations  https://lowentropy.net/posts/standard-principles/
 
 
 
